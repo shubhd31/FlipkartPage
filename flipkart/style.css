@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 200px;
+    background-color: #2874F0;
+}
+.headerMain{
+    display: flex;
+    /* background-color: yellowgreen; */
+    margin: auto;
+}
+.headerCenter{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+.headerCenter > img {
+    width: 90px;
+    object-fit: cover;
+}
+.headerCenter > input{
+    background-color: white;
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 1px;
+    padding: 0 10px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.headerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    margin-left: 50px;
+
+}
+.headerRight > button{
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 6px 35px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #2874F0;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
+
+}   
+.headerRight > select{
+    background: none;
+    outline: none;
+    padding: 4px 0;
+    border: none;
+    width: 60px;
+    color: white;
+    margin-left: 20px;
+}
+.cartIcon{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.cartIcon > span{
+    padding-left: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+
+/* header nav */
+.headerNav{
+    padding: 15px 0;
+    box-shadow: 1px 0px 9px -1px rgba(0,0,0,0.2);
+    
+
+}
+
+.headerNavItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 85vw;
+    margin: auto;
+}
+.navItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navItem > img{
+    width: 70px;
+}
+.navItem  > span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* heroPage */
+
+.heroPage{
+    /* background-color: salmon; */
+    padding: 15px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 0px 9px -1px rgba(0,0,0,0.2);
+    margin-top: 10px;
+}
+.dealsMain{
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+}
+.dealsLeft{
+    display: flex;
+    align-items: center;
+}
+.dealsTitle{
+    font-size: 18px;
+    font-weight: 600;
+}
+.timer{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.timer > img{
+    width: 18px;
+}
+.timer > span{
+    margin-left: 5px;
+    color: #757575;
+    font-size: 12px;
+}
+.dealsRight > button{
+    background-color:#2874F0;
+    text-transform: uppercase;
+    font-size: 10px;
+    outline: none;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
+}
